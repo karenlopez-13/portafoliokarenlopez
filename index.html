@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Karen Lopez Diseñadora UX/UI">
+    <meta name="robots" content="index,follow">
+
+    <title>Karen Lopez Rodriguez | Diseñadora UX/UI</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./stylesheet/loader.css">
+    <link rel="stylesheet" href="./stylesheet/index.css">
+    <link rel="stylesheet" href="./stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./images/logo.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./images/español.jpeg" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./images/ingles.jpeg" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./images/ilustracion.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Karen Lopez</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Diseñadora UX/UI</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Egresada de la carrera de Ingeniería en Software y sistemas computacionales, con perfil de diseñadora ux/ui con proyectos que comprenden las necesidades de los usuarios </p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/10lmXj1XutTo7cqKmFULM0YepI3F9Exln/view?usp=drive_link" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/karen-lopez-a98472176/" target="_blank">
+                    <img src="./images/linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://www.instagram.com/karenlopez__13/" target="_blank">
+                    <img src="./images/instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Karen López</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy egresada de la Licenciatura de Ingeniería en Software y Sistemas Computacionales, amante del diseño y de crear prototipos con la finalidad de mejorar la experiencia del usuario.<br>Aspiro a conseguir empleo en el mundo del Diseño UX/UI y de tal forma adquirir experiencia para conectar más con el usuario.<br><br>Me considero una persona empática y con amplio conocimiento en psicología para comprender la forma en la que piensa el usuario.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./images/sobremi.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./images/html5.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./images/css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./images/figma.webp" alt="JavaScript">
+                    <p>Figma</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./images/miro.png" alt="Notion">
+                    <p>Miro</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./images/meta.png" alt="Tailwind">
+                    <p>Meta Bussines Suite</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./images/blender.png" alt="Git">
+                    <p>Blender</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./images/bootstrap.png" alt="GitHub">
+                    <p>Bootstrap</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./images/trello.png" alt="Trello">
+                    <p>Trello</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./images/lasalle.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Ingeniería en software y sistemas computacionales</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2021 - 2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./images/coursera.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Diseño de experiencia del usuario (UX) de Google</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./images/udemy.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">UX/UI Design on Adobe XD</p>
+                        <p>2024 - cursando</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./images/appsmart.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">App de smart home</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">App móvil que permite a los usuarios conectarse fácilmente con el aire acondicionado, lavadoras y también a las luces de la casa.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://www.figma.com/proto/8nX1RtXikpM2lTffrVHlnY/Untitled?node-id=103-3&starting-point-node-id=1%3A2" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./images/ojo.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://www.figma.com/design/8nX1RtXikpM2lTffrVHlnY/Untitled?m=auto&t=XPJ64YaEXrHW3kVe-6" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./images/logofigma.webp" alt="Repositorio de github">Editable
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./images/appclima.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">App del clima</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">App móvil que te informa sobre el estado del clima como la temperatura, lluvia, nieve y viento. Consulta el pronóstico para los siguientes diez días.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://www.figma.com/proto/OU7tlaGdEAaiiGpVhrQca2/Untitled?node-id=4-25&p=f&t=n4JCBMeGfBPkax6X-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A25" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./images/ojo.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://www.figma.com/design/OU7tlaGdEAaiiGpVhrQca2/Untitled?node-id=0-1&p=f&t=hDjxewpBVyndPdg4-0" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./images/logofigma.webp" alt="Repositorio de github">EDITABLE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./images/appviaje.png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">App de viaje</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Una app móvil que te permite agendar hospedaje comparando precios y ofertas de viaje.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://www.figma.com/proto/aCkzbAYFuS8ATBhKVwyzn3/VIAJE?node-id=2497-943&starting-point-node-id=2497%3A943" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./images/ojo.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://www.figma.com/design/aCkzbAYFuS8ATBhKVwyzn3/VIAJE?node-id=2488-799&p=f&t=PJTkNHhbnmthBCZz-0" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./images/logofigma.webp" alt="Repositorio de github">EDITABLE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Para más información acerca de mis trabajos, completa el siguiente formulario.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/karen-lopez-a98472176/" target="_blank">
+                    <img src="./images/linkedin.png" alt="LinkedIn">
+                <a href="https://www.instagram.com/karenlopez__13/" target="_blank">
+                    <img src="./images/instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with by</span>
+                <span>Karen Lopez</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+</html>

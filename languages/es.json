@@ -1,0 +1,52 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Diseñadora UX/UI",
+        "parrafo-info": "Egresada de la carrera de Ingeniería en Software y sistemas computacionales, con perfil de diseñadora ux/ui con proyectos que comprenden las necesidades de los usuarios",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy egresada de la Licenciatura de Ingeniería en Software y Sistemas Computacionales, amante del diseño y de crear prototipos con la finalidad de mejorar la experiencia del usuario. Aspiro a conseguir empleo en el mundo del Diseño UX/UI y de tal forma adquirir experiencia para conectar más con el usuario. Me considero una persona empática y con amplio conocimiento en psicología para comprender la forma en la que piensa el usuario."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Ingeniería en software y sistemas computacionales",
+        "tiempo-formacion1": "2021 - 2022",
+        "formacion2": "Diseño de experiencia del usuario (UX) de Google",
+        "tiempo-formacion2": "2022 - 2023",
+        "formacion3": "UX/UI Design on Adobe XD",
+        "tiempo-formacion3": "2024 - cursando"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "App de smart home",
+        "info-proyecto1": "App móvil que permite a los usuarios conectarse fácilmente con el aire acondicionado, lavadoras y también a las luces de la casa.",
+        "title-proyecto2": "App del clima",
+        "info-proyecto2": "App móvil que te informa sobre el estado del clima como la temperatura, lluvia, nieve y viento. Consulta el pronóstico para los siguientes diez días.",
+        "title-proyecto3": "App de viaje",
+        "info-proyecto3": "Una app móvil que te permite agendar hospedaje comparando precios y ofertas de viaje."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Para más información acerca de mis trabajos, completa el siguiente formulario.",
+        "btn-enviar": "Enviar"
+    }
+}

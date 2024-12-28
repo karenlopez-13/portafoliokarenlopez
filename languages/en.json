@@ -1,0 +1,52 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "UX/UI Designer",
+        "parrafo-info": "Graduated from the Software and Computer Systems Engineering degree, with a UX/UI designer profile with projects that understand the needs of users",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I graduated from the Bachelor of Software Engineering and Computer Systems, I love design and creating prototypes with the aim of improving the user experience. I aspire to get a job in the world of UX/UI Design and thus gain experience to connect more with the user. I consider myself an empathetic person with extensive knowledge in psychology to understand the way the user thinks."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Software and computer systems engineering",
+        "tiempo-formacion1": "2021 - 2022",
+        "formacion2": "Google User Experience (UX) Design",
+        "tiempo-formacion2": "2022 - 2023",
+        "formacion3": "UX/UI Design in Adobe XD",
+        "tiempo-formacion3": "2024 - studying"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Smart home app",
+        "info-proyecto1": "Mobile app that allows users to easily connect to air conditioning, washing machines and also to the lights in the house.",
+        "title-proyecto2": "weather app",
+        "info-proyecto2": "Mobile app that informs you about the weather conditions such as temperature, rain, snow and wind. Check the forecast for the next ten days.",
+        "title-proyecto3": "travel app",
+        "info-proyecto3": "A mobile app that allows you to book accommodation by comparing prices and travel offers."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "For more information about my work, please fill out the following form.",
+        "btn-enviar": "Send"
+    }
+}
